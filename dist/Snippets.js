@@ -22,9 +22,9 @@ var Snippets = {
 
     if (!id) (0, _warn2.default)('GTM Id is required');
 
-    var iframe = '\n      <iframe src="https://load.hub.viberate.com/ns.html?id=' + id + gtm_auth + gtm_preview + '&gtm_cookies_win=x"\n        height="0" width="0" style="display:none;visibility:hidden" id="tag-manager"></iframe>';
+    var iframe = '\n      <iframe src="https://load.hub.viberate.com/ns.html?id=' + id + '"\n height="0" width="0" style="display:none;visibility:hidden" id="tag-manager"></iframe>';
 
-    var script = '\n      (function(w,d,s,l,i){w[l]=w[l]||[];\n        w[l].push({\'gtm.start\': new Date().getTime(),event:\'gtm.js\', ' + JSON.stringify(events).slice(1, -1) + '});\n        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';\n        j.async=true;j.src=\'https://load.hub.viberate.com/ns.html?id=\'+i+dl+\'' + gtm_auth + gtm_preview + '&gtm_cookies_win=x\';\n        f.parentNode.insertBefore(j,f);\n      })(window,document,\'script\',\'' + dataLayerName + '\',\'' + id + '\');';
+    var script = '\n      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://load.hub.viberate.com/7w2ksjarkvoy.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,"script","hfoe","bhl16=aWQ9R1RNLU1KNDc0M1gmbD1oZm9l&apiKey=3864a2ac");';
 
     var dataLayerVar = this.dataLayer(dataLayer, dataLayerName);
 
