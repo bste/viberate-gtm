@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bste/viberate-gtm"
+    "url": "git+https://github.com/bste/viberate-gtm.git"
   },
   "author": {
-    "name": "Aline Morelli",
-    "email": "aline.morelliw@gmail.com",
-    "url": "https://github.com/alinemorelli"
+    "name": "Boštjan Žakelj",
+    "email": "bostjan@viberate.com",
+    "url": "https://github.com/bste"
   },
   "license": "MIT",
   "bugs": {
