@@ -1,7 +1,5 @@
 import warn from './utils/warn'
 
-// https://developers.google.com/tag-manager/quickstart
-
 const Snippets = {
   tags: function ({ id, events, dataLayer, dataLayerName, preview, auth }) {
     const gtm_auth = `&gtm_auth=${auth}`

@@ -1,7 +1,7 @@
 {
-  "name": "react-gtm-module",
+  "name": "viberate-gtm-module",
   "version": "2.0.11",
-  "description": "React Google Tag Manager Module",
+  "description": "React Google Tag Manager Module modifiewd by Viberate",
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint .",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alinemorelli/react-gtm"
+    "url": "https://github.com/bste/viberate-gtm"
   },
   "author": {
     "name": "Aline Morelli",
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alinemorelli/react-gtm/issues"
+    "url": "https://github.com/bste/viberate-gtm/issues"
   },
   "homepage": "",
   "keywords": [
