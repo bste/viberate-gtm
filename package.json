@@ -1,6 +1,6 @@
 {
   "name": "viberate-gtm-module",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "description": "React Google Tag Manager Module modifiewd by Viberate",
   "main": "dist/index.js",
   "scripts": {
