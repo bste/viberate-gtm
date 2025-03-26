@@ -1,4 +1,4 @@
-# react-gtm-module
+# viberate-gtm-module
 ### React Google Tag Manager Module
 
 This is a Javascript module to [React](https://facebook.github.io/react/) based apps that implement Google Tag Manager. It is designed to use [GTM](https://developers.google.com/tag-manager/quickstart) snippet.
