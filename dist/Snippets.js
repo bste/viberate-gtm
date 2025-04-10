@@ -17,7 +17,9 @@ var Snippets = {
       dataLayer = _ref.dataLayer,
       dataLayerName = _ref.dataLayerName,
       preview = _ref.preview,
-      auth = _ref.auth;
+      auth = _ref.auth,
+      apikey = _ref.apikey;
+      bh = _ref.bh;
 
     var gtm_auth = "&gtm_auth=" + auth;
     var gtm_preview = "&gtm_preview=" + preview;
@@ -30,7 +32,7 @@ var Snippets = {
       '"\n height="0" width="0" style="display:none;visibility:hidden" id="tag-manager"></iframe>';
 
     var script =
-      '\n      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://load.hub.viberate.com/7w2ksjarkvoy.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,"script","hfoe","bhl16=aWQ9R1RNLU1KNDc0M1gmbD1oZm9l&apiKey=3864a2ac");';
+      '\n      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://load.hub.viberate.com/7w2ksjarkvoy.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,"script","hfoe","bhl16=' + bh + '&apiKey=' + apikey + '");';
 
     var dataLayerVar = this.dataLayer(dataLayer, dataLayerName);
 
